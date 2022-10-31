@@ -1,0 +1,29 @@
+conda create -p venv python==3.8 -y
+conda activate venv/
+pip3 install -r requirements.txt
+create sensor folder with init 
+setup.py 
+req.txt
+create pipeline folder and init has two pipeline
+create components folder
+create data access folder to connect with mongo db and bring the data 
+create a cloud storage to write file with related to cloud data 
+create a configuration folder to config realated data basically connections 
+to hanlde constant data create constant folder 
+create logger.py and exception.py file
+create entity folder  and create two file artifact and config_entity
+config_entity--> create i/p for every components
+ML Folder  any custom model feature eng graph
+create a database.py inside constant
+logger and exception class 
+exception class coding will be same for almost all projects 
+exception is uesd for getting error as whhich file where it has happened to the core 
+loogging
+env_variable --> create environment variable
+s3-Buckets --> create  s3 bucket for bucket reelated eetails
+applications.py host and port details 
+training pipeline --> init create folder structure constant
+config Entity path creation
+main
+training pipeline.py
+data_ingestion.python

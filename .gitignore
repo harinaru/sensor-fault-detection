@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+artifact
+.vscode
+flowcharts
+docs
 # C extensions
 *.so
 
