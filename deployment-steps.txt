@@ -61,11 +61,11 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION=ap-south-1
 
-AWS_ECR_LOGIN_URI=566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI=059775603964.dkr.ecr.ap-south-1.amazonaws.com
 
-ECR_REPOSITORY_NAME=sensor-fault
+ECR_REPOSITORY_NAME=sensor
 
-MONGO_DB_URL=
+MONGO_DB_URL= mongodb+srv://hari:hari@cluster0.7qzesuy.mongodb.net
 
 
 
