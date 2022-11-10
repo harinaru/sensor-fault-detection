@@ -133,3 +133,5 @@ dmypy.json
 
 # dummy text file
 steps.txt
+saved_models/*
+SENSOR-FAULT-DETECTION/*deployment-steps.txt
