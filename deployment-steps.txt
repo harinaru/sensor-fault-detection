@@ -25,13 +25,15 @@
 	2. AmazonEC2FullAccess
 	3. AmazonS3FullAccess
 
-3.Create a s3 bukcet in ap-south-1
+
+3.Create a s3  with name as "sensor-model-new" bukcet in ap-south-1
 	bucket name: scania-sensor-pipeline
 	
 4. ECR repo to store/save docker image
-	566373416292.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault
+	059775603964.dkr.ecr.ap-south-1.amazonaws.com/sensor
 	
 5. EC2 machine  Ubuntu  Created
+
 
 6. Open EC2 and Install docker in EC2 Machine 
 	
@@ -63,4 +65,8 @@ AWS_ECR_LOGIN_URI=566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME=sensor-fault
 
-MONGO_DB_URL=mongodb+srv://avnish:Aa327030@cluster0.or68e.mongodb.net/admin?authSource=admin&replicaSet=atlas-desfdx-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+MONGO_DB_URL=
+
+
+
+i am user name =sensor 
